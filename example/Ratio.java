@@ -1,5 +1,10 @@
 public class Ratio {
   public static double calculate(double width, double height) {
-    // Implement Me
+    if(width > height){
+      return width/height;
+    }
+    else{
+      return height/width;
+    }
   }
 }
